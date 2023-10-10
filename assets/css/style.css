@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Header section start */
+header{
+    width:100vw;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    background: #022d7c;
+    justify-content: space-between;
+
+}
+
+
+/* Header section End */
+
+/* banner section start */
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding: 200px 200px;
+    align-items: center;
+    justify-content: space-between;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../img/image.jpg);
+    background-size: cover;
+
+}
+
+
+.banner .main{
+    margin-left: 5px;
+    margin-right: 100px;
+}
+.banner h1{
+    font-size: 55px;
+    font-weight: normal;
+    padding-left: 0px;
+
+}
+
+.banner h1 span{
+    display: block;
+    font-size: 77PX;
+    font-weight: 600;
+}
+
+.banner aside{
+    justify-content: center;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+
+    background: #022d7c;
+
+}
+.banner aside form{
+
+    margin-right: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+}
+/* banner section End */
+/*feature section start*/
+.feature{
+    width:100%;
+    height: auto;
+    display: flex;
+    padding: 60px 100px;
+    justify-content: space-between;
+    color: #022d7c;
+}
+.feature div{
+    width: 30%;
+    height: 400px;
+}
+.feature div h2{
+    font-size: 40px;
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+.feature  div img{
+    width: 350px;
+    height: 250px;
+}
+.feature div p{
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 90;
+    
+    
+    
+}
+/*feature section start*/
+/* about us section start*/
+.about{
+    width: 100%;
+    margin-top: 5px;
+    height: auto;
+    color: #fff;
+    text-align: center;
+    padding: 60px 300px;
+    background: #022d7c;
+
+}
+.about h2{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 300;
+    text-emphasis-color: blue;
+}
+.about button{
+    color: #fff;
+    margin-top: 10px;
+    padding: 15px 120px;
+    font-weight: bold;
+    background: #022d7c;
+    border: 2px solid #fff;
+    border-radius: 5px;
+
+
+}
+
+/* about us section End*/
+/*service section start*/
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px  ;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+
+ .content{
+    width: 60%;
+    padding: 50px 50px 50px 50px;
+   
+}
+.service .image img{
+    width: 650px;
+    height: 650%;
+}
+
+/*service section End*/
+/*footer section start*/
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 25px 100px;
+    background: #022d7c;
+    text-align: center;
+}
+/*footer section End*/
